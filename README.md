@@ -3,11 +3,6 @@ An early 3D viewing program I wrote for DOS with Turbo C++.
 
 
 	Kevin's 3D C++ Class Library
-
-	Code named:
-		ZeBRA for "Z-Buffer Rendering Application"
-		version 0.1 BETA
-
 	Copyright (1995) Kevin Richey
 	All RIghts reserved.
 
@@ -24,11 +19,13 @@ An early 3D viewing program I wrote for DOS with Turbo C++.
 	CONEGEN.EXE	Cone shape file generator
 	SPHERGEN.EXE	Sphere shape file generator
 
+	These seem to run okay under DOSBox.
+
 	---------------------------------------------------------------
 
 	EDIT3D
 
-	ZeBRA 3D object editor.
+	3D object editor.
 	Copyright (1995) Kevin Richey
 
 	This utility allows you to manipulate several 3D objects
@@ -89,7 +86,7 @@ An early 3D viewing program I wrote for DOS with Turbo C++.
 	CONEGEN
 	SPHERGEN
 
-	ZeBRA 3D shape generation utilities.
+	3D shape generation utilities.
 	Copyright (1995) Kevin Richey
 
 	These three programs are used to generate cylinders, cones,
@@ -98,8 +95,4 @@ An early 3D viewing program I wrote for DOS with Turbo C++.
 	They ask you for the number of sides on the shape, which must
 	be greater than two, and the name of the data file to store
 	the shape data in.
-
-	---------------------------------------------------------------
-
-	This document is printed on recycled pixels.
 
