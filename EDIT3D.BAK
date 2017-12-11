@@ -1,0 +1,27 @@
+	EDIT3D.DOC
+
+	ZeBRA 3D object editor.
+	Copyright (1995) Kevin Richey
+
+	This utility allows you to manipulate several 3D objects
+	on the screen in wireframe perspectice projection in order
+	to design more complex shapes.
+
+	Make sure that the "EGAVGA.BGI" file is in the same directory
+	that you are running VIEW3D2 from.
+
+	The program has several commands when you first start:
+
+	l	Load shape into database
+	a	Add object to scene
+	e	Edit object
+	c	Set camera options
+	q	Quit EDIT3D
+
+	After the first object has been added to the scene, three
+	new operations will become active:
+
+	t	Translate object
+	s	Scale object
+	r	Rotate object
+

@@ -1,0 +1,35 @@
+ObjectStructure
+
+sphere1
+ball
+              1              0              0              0
+              0              1              0              0
+              0              0              1              0
+             -1              0             -1              1
+
+
+cone
+cone1
+              1              0              0              0
+              0              1              0              0
+              0              0              1              0
+              1              0             -1              1
+
+
+cube
+box
+              1              0              0              0
+              0              1              0              0
+              0              0              1              0
+             -1              0              1              1
+
+
+cylinder
+cyl1
+              1              0              0              0
+              0              1              0              0
+              0              0              1              0
+              1              0              1              1
+
+
+end

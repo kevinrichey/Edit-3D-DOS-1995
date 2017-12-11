@@ -1,0 +1,36 @@
+
+	VIEW3D2.DOC
+
+	ZeBRA 3D shape file viewer.
+
+	This utility is used to display 3D data files in wireframe
+	perspective projection using backface culling hidden surface
+	removal.
+
+	Make sure that the "EGAVGA.BGI" file is in the same directory
+	that you are running VIEW3D2 from.
+
+	Run the program with no command line parameters.
+	You will be asked for the name of the object file to view.
+	Enter the file name, including the path and ".3D" extension.
+	You will then be asked for the camera position.  Enter 3
+	translation values (x, y, and z, respectively) to position the
+	object i front of the camera.  Good values are zero for x and y
+	and anything above two for z.
+	The object file will be loaded and displayed on the screen.
+	There are four commands: s for scale, r for rotate, t for
+	translate, and q for quit.  The transformation commands each
+	take three floats as input.  Remember that rotation uses
+	radians, NOT degrees, and that 360 degrees == 2*PI, or about
+	6.28318 radians.
+
+	Here are some useful angles conversions:
+
+	Degrees	Radians
+	-------	-----------
+	30		0.5235983
+	45		0.7853975
+	60		1.0471966
+	90		1.570795
+	180		3.14159
+
